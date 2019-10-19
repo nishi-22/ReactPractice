@@ -41,7 +41,7 @@ class App extends React.Component {
           <button type="button" onClick={this.handleShowHide}>
             {this.state.text}
           </button>
-          {/*  {this.state.flag && <DisplayItems items={this.state.items} />} */}
+       {this.state.flag && <DisplayItems items={this.state.items} />} 
 
           <nav>
             <ul>
